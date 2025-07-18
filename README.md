@@ -1,4 +1,4 @@
-🧾 Invoice Extraction & Classification System
+**🧾 Invoice Extraction & Classification System**
 Automated Invoice Processing using OpenCV, OCR, and Machine Learning
 
 Features
@@ -6,11 +6,10 @@ OCR Field Extraction – Extracts Vendor, Invoice No, Date, and Total Amount fro
 
 Invoice Classification – Classifies invoices as Valid, Duplicate, or Suspicious.
 
-Robust to OCR Errors – Handles text variations like "Vnvoice No" vs "Invoice No".
 
 Interactive Web Interface – Built with Streamlit.
 
-Tech Stack
+**Tech Stack**
 OpenCV – Image preprocessing
 
 Tesseract OCR – Text extraction
@@ -19,7 +18,7 @@ scikit-learn – ML Classification (RandomForest)
 
 Streamlit – Web interface
 
-Setup Instructions
+**Setup Instructions**
 
 1️⃣ Install Python Dependencies
 
@@ -55,4 +54,3 @@ invoice-extraction/
 
 Author
 Shahnawaz Hussain
-LinkedIn
