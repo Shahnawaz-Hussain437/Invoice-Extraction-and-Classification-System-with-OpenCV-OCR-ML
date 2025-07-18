@@ -1,56 +1,52 @@
-**🧾 Invoice Extraction & Classification System**
-Automated Invoice Processing using OpenCV, OCR, and Machine Learning
+# 🧾 Invoice Extraction & Classification System
 
-Features
-OCR Field Extraction – Extracts Vendor, Invoice No, Date, and Total Amount from invoice images.
+**Automated Invoice Processing using OpenCV, OCR, and Machine Learning**
 
-Invoice Classification – Classifies invoices as Valid, Duplicate, or Suspicious.
+---
 
+## **Features**
 
-Interactive Web Interface – Built with Streamlit.
+- **OCR Field Extraction** – Extracts **Vendor**, **Invoice No**, **Date**, and **Total Amount** from invoice images.  
+- **Invoice Classification** – Classifies invoices as **Valid**, **Duplicate**, or **Suspicious**.  
+- **Robust to OCR Errors** – Handles variations like **"Vnvoice No"**, **"Inv No"**, etc.  
+- **Interactive Web Interface** – Built with **Streamlit**.
 
-**Tech Stack**
-OpenCV – Image preprocessing
+---
 
-Tesseract OCR – Text extraction
+## **Tech Stack**
 
-scikit-learn – ML Classification (RandomForest)
+- **OpenCV** – Image preprocessing  
+- **Tesseract OCR** – Text extraction  
+- **scikit-learn** – ML Classification (RandomForest)  
+- **Streamlit** – Web interface  
 
-Streamlit – Web interface
+---
 
-**Setup Instructions**
+## **Setup Instructions**
 
-1️⃣ Install Python Dependencies
+### install python dependencies
 
+```bash
 pip install -r requirements.txt
 
-2️⃣ Install Tesseract OCR
+### 2 Install Tesseract OCR
 
-Download from: Tesseract Windows Installer
-
-Default path used in app.py:
-C:\Program Files (x86)\Tesseract-OCR\tesseract.exe
-
-first run generate_invoices.py to generate synthetic data to train the classifier
-
-3️⃣ Run the App
-
+### 3 Run the app
 streamlit run app.py
 
-Invoice Labels
-Label	      Description
-Valid	      Normal invoice
-Duplicate	  Invoice number ends with 00
-Suspicious	  Total amount is 0
+## **Invoice Labels**
+Label	|   Meaning
+Valid	 |  Normal invoice
+Duplicate | Invoice number ends with 00
+Suspicious | Total amount is 0
 
 
-Project Structure
-
+## **Project Structure**
 invoice-extraction/
 ├── app.py                 # Streamlit App
-├── model/classifier.pkl   # Trained Model
+├── model/classifier.pkl   # Trained ML Model
 ├── synthetic_invoices/    # Images + Dataset
 ├── requirements.txt
 
-Author
-Shahnawaz Hussain
+## **Author**
+**Shahnawaz Hussain**
