@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Model files
+model/*.pkl
+
+# Synthetic Data
+synthetic_invoices/images/
+synthetic_invoices/annotations.csv
+
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs or temp files (optional)
+*.log
+*.tmp

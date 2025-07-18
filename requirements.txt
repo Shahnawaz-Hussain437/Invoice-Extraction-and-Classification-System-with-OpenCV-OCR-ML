@@ -1,0 +1,8 @@
+opencv-python
+pillow
+numpy
+faker
+scikit-learn
+pandas
+streamlit
+pytesseract
